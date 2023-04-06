@@ -1,7 +1,12 @@
 NAME	= libftprintf.a
 
-SOURCES	= ./sources/ft_printf.c \
-
+SOURCES	=	./sources/get_printchar_length.c		\
+			./sources/get_printstr_length.c			\
+			./sources/get_printdecimal_length.c		\
+			./sources/get_printunsignedint_length.c	\
+			./sources/get_printaddress_length.c		\
+			./sources/get_printhex_length.c			\
+			./sources/ft_printf.c 					\
 
 OBJECTS	= $(SOURCES:.c=.o)
 
