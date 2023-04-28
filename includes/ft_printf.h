@@ -31,8 +31,8 @@ int		hex_length(unsigned int n);
 void	print_hex(unsigned int n, const char mychar);
 int		get_printhex_length(unsigned int n, const char mychar);
 
-int		ft_address_length(uintptr_t n);
-void	ft_printaddress(uintptr_t n);
+int		ft_address_length(unsigned long n);
+void	ft_printaddress(unsigned long n);
 int		get_printaddress_length(unsigned long long my_ptr);
 
 void	ft_put_char(char c);
