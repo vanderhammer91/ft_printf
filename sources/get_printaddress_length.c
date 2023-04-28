@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "../includes/ft_printf.h"
 
-int	ft_address_length(uintptr_t n)
+int	ft_address_length(unsigned long n)
 {
 	int	length;
 
@@ -24,7 +24,7 @@ int	ft_address_length(uintptr_t n)
 	return (length);
 }
 
-void	ft_printaddress(uintptr_t n)
+void	ft_printaddress(unsigned long n)
 {
 	if (n >= 16)
 	{
